@@ -30,6 +30,7 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/blue-snake.svg?color_snake=#1677ff&color_dots=#f0f7ff,#bfdbfe,#93c5fd,#3b82f6,#1d4ed8
 
+          color_snake: "#FF0000"   
       # 把生成的svg推到output分支
       - name: Publish svg to output branch
         uses: peaceiris/actions-gh-pages@v4
